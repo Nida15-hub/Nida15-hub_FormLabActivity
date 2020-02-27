@@ -33,27 +33,27 @@
                     <form method= "post"  action="output.php" >
                     <div>
                         <label>Lastname:</label>
-                        <input type="text"  name="lname" class="form-control" placeholder="Last Name">
+                        <input type="text"  name="lname" class="form-control" placeholder="Last Name" required>
                     </div>
                     <div>
                         <label>Firstname: </label>
-                        <input type="text"  name="fname" class="form-control" placeholder="First Name">
+                        <input type="text"  name="fname" class="form-control" placeholder="First Name" required>
                     </div>
                     <div>
                         <label>Middlename:</label>
-                        <input type="text"  name="mname" class="form-control" placeholder="Middle Name">
+                        <input type="text"  name="mname" class="form-control" placeholder="Middle Name" required>
                     </div>
                     <div>
                         <label>Address:</label>
-                        <input type="text"  name="address" class="form-control" placeholder="Address">
+                        <input type="text"  name="address" class="form-control" placeholder="Address" required>
                     </div>
                     <div>
                         <label>Date of Birth:</label>
-                        <input type="date"  name="date" class="form-control" placeholder="Date of Birth">
+                        <input type="date"  name="date" class="form-control" placeholder="Date of Birth" required>
                     </div>
                     <div>
                         <label>Place of Birth: </label>
-                        <input type="text"  name="place" class="form-control" placeholder="Palce of Birth"></label>
+                        <input type="text"  name="place" class="form-control" placeholder="Palce of Birth" required></label>
                     </div>
                     <div>
                         <label>Gender:</label>
@@ -62,10 +62,10 @@
                          <input type="radio" name="gender" value="others"> Others
                     </div>
                     <div>
-                        <label>Guardian: <input type="text"  name="guardian" class="form-control" placeholder="Guardian"></label>
+                        <label>Guardian: <input type="text"  name="guardian" class="form-control" placeholder="Guardian" required></label>
                     </div>
                     <div>
-                        <label>Contact Number: <input type="text"  name="number" class="form-control" placeholder="Contact Number"></label>
+                        <label>Contact Number: <input type="text"  name="number" class="form-control" placeholder="Contact Number" required></label>
                     </div>
                     <div>
                         <label>Civil Status</label>
@@ -92,10 +92,10 @@
                         </select>
                     </div>
                     <div>
-                        <label>School Year: <input type="text"  name="sy" class="form-control" placeholder="School Year" ></label>
+                        <label>School Year: <input type="text"  name="sy" class="form-control" placeholder="School Year" required></label>
                     </div>
                     <div>
-                        <label>Email: <input type="text"  name="email" class="form-control" placeholder="Email Address" ></label>
+                        <label>Email: <input type="text"  name="email" class="form-control" placeholder="Email Address" required></label>
                     </div>
                     <div>
                         <a href="output.php" class= "text-center form-control">
